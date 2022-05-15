@@ -1,2 +1,2 @@
 herkunftslaender
-https://donwardducken.github.io/herkunftslaender/TUBergakademieFreiberg_Beispiel_eingefügt.html
+https://donwardducken.github.io/herkunftslaender/main.html
