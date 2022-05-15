@@ -9,30 +9,15 @@
   </head>
   <body>
     <div id="svgMap">
-    <script>
-    new svgMap({
-  targetElementID: 'svgMap',
-  data: {
-    data: {
-      count: {
-        name: 'Anteil der Stundenten',
-        format: '{0} %',
-        thousandSeparator: ',',
-        thresholdMax: 25,
-        thresholdMin: 0
-      },
-      
-    },
-    applyData: 'count',
-    values: {
-      
-      EG: {  count: 0.97}
-      // ...
-    }
-  },
-  colorMin: '#9ad5ff',
-  colorMax: '#006ab3',
-});</script></div>
+        <script src="./data/countriesDE.js"></script>
+        <script src="./data/numberStudents.js"></script>
+        <script>
+        new svgMap({
+        targetElementID: 'svgMap',
+        data: svgMapDataNumberStudents,
+        colorMin: '#9ad5ff',
+        colorMax: '#006ab3',});
+    </script></div>
  </body>
 
 </html>
